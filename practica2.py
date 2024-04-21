@@ -50,7 +50,6 @@ datetime_vector = []
 # Fecha y hora actual del sistema
 start_date = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 
-ax = plt.figure().add_subplot(projection='3d')
 
 for t in tiempo:
     for i in range(len(constelacion)):
